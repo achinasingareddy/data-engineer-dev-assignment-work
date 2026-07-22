@@ -2,17 +2,17 @@
 
 ## 1. Product Information
 
-Attribute				Value
-
-Product Name 			University Chapters
-Version 				v1
-Owner 					Data Engineering Team
-Source 					ArcGIS University Chapters REST API
-Refresh 				Frequency Daily (Manual for Assignment)
-Storage Layer 			Gold
-Format 					Parquet
-Classification 			Public Data
-PII 					None
+| Attribute | Value |
+|------------|-------|
+| Product Name | University Chapters |
+| Version | v1 |
+| Owner | Data Engineering Team |
+| Source | ArcGIS University Chapters REST API |
+| Refresh Frequency | Daily (Manual for Assignment) |
+| Storage Layer | Gold |
+| Format | Parquet |
+| Classification | Public Data |
+| PII | None |
 
 ---
 
@@ -49,9 +49,9 @@ State IN ('CA','OR','WA')
 # 4. Data Flow
 
 
-  ArcGIS API --> Bronze --> Silver    --> Gold
+ArcGIS API --> Bronze --> Silver    --> Gold
 
-                          --> Quarantine
+                      --> Quarantine
 
 ---
 
@@ -83,16 +83,16 @@ Parquet
 
 # 7. Schema
 
-  Column              Type          Description  
-  chapter_id          String			  Business Key  
-  chapter_name			  String			  University Chapter Name  
-  city					      String			  City  
-  state					      String			  State Code  
-  longitude				    Double			  Longitude  
-  latitude				    Double			  Latitude  
-  dq_status				    String			  Data Quality Status  
-  dq_warnings			    Array<String>	Warning Messages  
-  published_timestamp	Timestamp		  Gold Publish Timestamp 
+Column Type Description
+chapter_id String Business Key
+chapter_name String University Chapter Name
+city String City
+state String State Code
+longitude Double Longitude
+latitude Double Latitude
+dq_status String Data Quality Status
+dq_warnings Array Warning Messages
+published_timestamp Timestamp Gold Publish Timestamp
 
 ---
 
