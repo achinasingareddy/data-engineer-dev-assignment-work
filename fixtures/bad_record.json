@@ -1,0 +1,17 @@
+{
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 99999,
+        "ChapterID": "CA-9999",
+        "University_Chapter": "Invalid University Chapter",
+        "City": "Los Angeles",
+        "State": "CA"
+      },
+      "geometry": {
+        "x": 250.12345,
+        "y": 95.67890
+      }
+    }
+  ]
+}

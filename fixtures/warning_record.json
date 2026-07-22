@@ -1,0 +1,17 @@
+{
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 88888,
+        "ChapterID": "CA-8888",
+        "University_Chapter": "Warning University Chapter",
+        "City": "UNKNOWN",
+        "State": "CA"
+      },
+      "geometry": {
+        "x": -118.243683,
+        "y": 34.052235
+      }
+    }
+  ]
+}
