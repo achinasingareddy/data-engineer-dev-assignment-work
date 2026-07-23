@@ -102,29 +102,29 @@ Parquet
 
 Condition
 
-Invalid Coordinates
+  -Invalid Coordinates
 
 Checks
 
-Longitude NULL
+  -Longitude NULL
 
-Latitude NULL
+  -Latitude NULL
 
-Longitude outside [-180,180]
+  -Longitude outside [-180,180]
 
-Latitude outside [-90,90]
+  -Latitude outside [-90,90]
 
 Action
 
-Move record to Quarantine
+  -Move record to Quarantine
 
 Reason Code
 
-INVALID_COORDINATES
+  -INVALID_COORDINATES
 
 Published?
 
-No
+  -No
 
 ---
 
@@ -132,29 +132,29 @@ No
 
 Condition
 
-City
+  City
 
-NULL
+    -NULL
 
-Blank
+    -Blank
 
-UNKNOWN
+    -UNKNOWN
 
 Action
 
-Publish to Gold
+  Publish to Gold
 
 Status
 
-WARNING
+  -WARNING
 
-Warning
+  -Warning
 
-MISSING_OR_UNKNOWN_CITY
+  -MISSING_OR_UNKNOWN_CITY
 
 Published?
 
-Yes
+  Yes
 
 ---
 
